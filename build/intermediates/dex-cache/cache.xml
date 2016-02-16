@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Android\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-98d4d9cf8f2df604dc4ce1a61289d26b9f635fb7.jar" />
-    </item>
-    <item
-        jar="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\pre-dexed\debug\classes-22c3ce59ef69aede6c47435e6d03b5cde5aaec4b.jar" />
-    </item>
-    <item
-        jar="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\pre-dexed\debug\classes-4dd30ddd77d06bc1aff6399c07f1aee6d8c428bc.jar" />
-    </item>
-    <item
-        jar="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\pre-dexed\debug\classes-a7b1dad066e856046a0276d3405afc1fe37bb1e2.jar" />
-    </item>
-    <item
-        jar="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\pre-dexed\debug\classes-a793d95dbfee14a7adab332f94fd9dfd498ed833.jar" />
-    </item>
-    <item
-        jar="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="X:\TomsDocuments\ImplicitIntents\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-7698f6174c6eb7391242804fd4ccea92c0987268.jar" />
+        <dex dex="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-49f795e11603711b752fbf5d83a2ff2774c3e566.jar" />
+    </item>
+    <item
+        jar="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\pre-dexed\debug\classes-da347f434fd73d74cb6a3daacccb37874e4555a3.jar" />
+    </item>
+    <item
+        jar="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\pre-dexed\debug\classes-2e762303ed4a329ef19e0d79db02a6e4cb138222.jar" />
+    </item>
+    <item
+        jar="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\pre-dexed\debug\classes-ed0af1d564a0b1320961691b67ec382675b18caf.jar" />
+    </item>
+    <item
+        jar="E:\Android_SDK\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-abd9620478847911b4dd82f2c72219b67b48b71d.jar" />
+    </item>
+    <item
+        jar="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\College\ITAD 230 - Mobile\ImplicitIntents_v2\app\build\intermediates\pre-dexed\debug\classes-30a3334abe45a19328673849b170b0f8dfbac870.jar" />
     </item>
 
 </items>

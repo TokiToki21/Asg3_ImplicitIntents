@@ -2,19 +2,21 @@ package lwtech.itad230.implicitintents;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.AlarmClock;
+import android.provider.ContactsContract;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.provider.ContactsContract.Intents;
 import android.widget.EditText;
 
-public class TimerActivity extends AppCompatActivity {
+public class ContactActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timer);
+        setContentView(R.layout.activity_contact);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,31 +28,41 @@ public class TimerActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
     }
 
-    public void onSetTimerClick(View view) {
-        // get the timer settings from the UI
-        EditText durationEditText = (EditText) findViewById(R.id.set_duration);
-        int duration = Integer.parseInt(durationEditText.getText().toString());
 
-        EditText messageEditText = (EditText) findViewById(R.id.set_message);
-        String message = messageEditText.getText().toString();
+    public void onSetContactClick(View view){
+        // create implicit intent to add contact
+        Intent intent = new Intent(Intents.Insert.ACTION)
+                .setType(ContactsContract.RawContacts.CONTENT_TYPE);
 
-        // create an implicit intent with extras for a count down timer
+        // retrieve email and phone inputs
+        EditText mEmailAddress = (EditText) findViewById(R.id.email_eTxt);
+        EditText mPhone= (EditText) findViewById(R.id.phone_eTxt);
 
-        Intent intent = new Intent(AlarmClock.ACTION_SET_TIMER)
-                .putExtra(AlarmClock.EXTRA_MESSAGE, message)
-                .putExtra(AlarmClock.EXTRA_LENGTH, duration)
-                .putExtra(AlarmClock.EXTRA_SKIP_UI, true);
+        // insert email and phone
+        intent.putExtra(Intents.Insert.EMAIL,mEmailAddress.getText())
+                .putExtra(Intents.Insert.PHONE,mPhone.getText());
+
 
 
         if(intent.resolveActivity(getPackageManager()) != null) {
-            //startActivity(intent);
             startActivityForResult(intent, 0);
-            //finish();
         }
-    }
 
+    }
+    public void onViewContactClick(View view){
+        // create implicit intent to add calendar event
+        Intent intent = new Intent(Intent.ACTION_EDIT);
+
+
+        if(intent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(intent, 0);
+        }
+
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         int x = 0;

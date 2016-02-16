@@ -13,8 +13,8 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
     public final static int TIMER_REQUEST_CODE = 0;
-    public final static int MESSAGE_REQUEST_CODE = 1;
-    public final static int PICTURE_REQUEST_CODE = 2;
+    public final static int ALARM_REQUEST_CODE = 1;
+    public final static int CONTACT_REQUEST_CODE= 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,15 +59,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent( this, TimerActivity.class );
         startActivityForResult( intent, TIMER_REQUEST_CODE);
 
-
     }
 
-    public void onMessageClick(View view) {
-
+    public void onAlarmClick(View view) {
+        Intent intent = new Intent(this, AlarmActivity.class);
+        startActivityForResult(intent,ALARM_REQUEST_CODE);
     }
 
-    public void onPictureClick(View view) {
-
+    public void onContactClick(View view) {
+        Intent intent = new Intent(this, ContactActivity.class);
+        startActivityForResult(intent,CONTACT_REQUEST_CODE);
     }
 
 
